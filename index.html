@@ -957,26 +957,26 @@
 
               <div class="col-md-6">
                 <div class="mu-reservation-left">
-                  <form class="mu-reservation-form">
+                  <form class="mu-reservation-form" action="https://formspree.io/maybokjk" method="POST" >
                     <div class="row">
                       <div class="col-md-12">
                         <div class="form-group">                       
-                          <input type="text" class="form-control" placeholder="Full Name">
+                          <input type="text" name="fullname" class="form-control" placeholder="Full Name">
                         </div>
                       </div>
                       <div class="col-md-12">
                         <div class="form-group">                        
-                          <input type="email" class="form-control" placeholder="Email">
+                          <input type="email" name="email_id" class="form-control" placeholder="abc@email.com">
                         </div>
                       </div>
                       <div class="col-md-12">
                         <div class="form-group">                        
-                          <input type="text" class="form-control" placeholder="Phone Number">
+                          <input type="text" name="phone_number" class="form-control" placeholder="Phone Number">
                         </div>
                       </div>
                       <div class="col-md-12">
                         <div class="form-group">
-                          <select class="form-control">
+                          <select name="count" class="form-control">
                             <option value="0">How Many?</option>
                             <option value="1 Person">1 Person</option>
                             <option value="2 People">2 People</option>
@@ -994,12 +994,12 @@
                       </div>
                       <div class="col-md-12">
                         <div class="form-group">
-                          <input type="text" class="form-control" id="datepicker" placeholder="Date">              
+                          <input type="text" class="form-control" name="date" id="datepicker" placeholder="Date">              
                         </div>
                       </div>
                       <div class="col-md-12">
                         <div class="form-group">
-                          <textarea class="form-control" cols="30" rows="10" placeholder="Your Message"></textarea>
+                          <textarea class="form-control" name="request" cols="30" rows="10" placeholder="Your Message"></textarea>
                         </div>
                       </div>
                       <button type="submit" class="mu-readmore-btn">Submit Request</button>
@@ -1007,7 +1007,7 @@
                   </form>    
                 </div>
               </div>
-
+			 
               <div class="col-md-5 col-md-offset-1">
                 <div class="mu-reservation-right">
                   <div class="mu-opening-hour">
@@ -1291,32 +1291,6 @@
             <div class="mu-contact-content">
               <div class="row">
 
-                <div class="col-md-6">
-                  <div class="mu-contact-left">
-                    <!-- Email message div -->
-                    <div id="form-messages"></div>
-                    <!-- Start contact form -->
-                    <form id="ajax-contact" method="post" action="mailer.php" class="mu-contact-form">
-                      <div class="form-group">
-                        <label for="name">Your Name</label>
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
-                      </div>
-                      <div class="form-group">
-                        <label for="email">Email address</label>
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
-                      </div>                      
-                      <div class="form-group">
-                        <label for="subject">Subject</label>
-                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
-                      </div>
-                      <div class="form-group">
-                        <label for="message">Message</label>                        
-                        <textarea class="form-control" id="message" name="message"  cols="30" rows="10" placeholder="Type Your Message" required></textarea>
-                      </div>                      
-                      <button type="submit" class="mu-send-btn">Send Message</button>
-                    </form>
-                  </div>
-                </div>
 
                 <div class="col-md-6">
                   <div class="mu-contact-right">
