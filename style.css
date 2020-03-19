@@ -1293,7 +1293,7 @@ RESERVATION SECTION
 .mu-contact-content {
   display: inline;
   float: left;
-  margin-top: 30px;
+  margin-top: 5px;
   width: 100%;
 }
 
@@ -1559,7 +1559,7 @@ RESERVATION SECTION
   }
   
   #mu-contact .mu-contact-area .mu-contact-content .mu-contact-right {
-    margin-top: 50px;
+    margin-top: 5px;
     padding: 0;
   }
 
