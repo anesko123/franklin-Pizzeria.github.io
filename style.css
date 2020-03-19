@@ -222,6 +222,7 @@ img {
   margin-top: 16px;
   height: 34px;
   width: 180px;
+  margin-left:-10px;	
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
